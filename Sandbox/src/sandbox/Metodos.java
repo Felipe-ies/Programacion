@@ -18,7 +18,7 @@ import java.util.Scanner;
  */
 public class Metodos {
 
-    private static final Scanner INPUT = new Scanner(System.in);
+    private static final Scanner TECLADO = new Scanner(System.in);
 
     /**
      * Funcion que lee archivo y devuelve datos en String
@@ -75,12 +75,12 @@ public class Metodos {
         for (String s : menu) {
             System.out.println(s);
         }
-        int opcion = INPUT.nextInt();
+        int opcion = TECLADO.nextInt();
         while (opcion < 1 || opcion > menu.length) {
             System.out.printf("Elije opcion desde %d hasta %d\n", 1, menu.length);
-            opcion = INPUT.nextInt();
+            opcion = TECLADO.nextInt();
         }
-        INPUT.close();
+        TECLADO.close();
         return opcion;
     }
 }
