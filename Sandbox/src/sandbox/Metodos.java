@@ -21,7 +21,7 @@ public class Metodos {
     private static final Scanner TECLADO = new Scanner(System.in);
 
     /**
-     * Funcion que lee archivo y devuelve datos en String
+     * Funcion que lee archivos
      *
      * @param ruta Ruta completa del archivo
      * @return Datos del archivo en String
