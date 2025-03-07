@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/0.1-Evaluacion/0.1-Evaluacion.iml" filepath="$PROJECT_DIR$/0.1-Evaluacion/0.1-Evaluacion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1.0-IntroProgramacion/1.0-IntroProgramacion.iml" filepath="$PROJECT_DIR$/1.0-IntroProgramacion/1.0-IntroProgramacion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2.0-EstructurasDeControl/2.0-EstructurasDeControl.iml" filepath="$PROJECT_DIR$/2.0-EstructurasDeControl/2.0-EstructurasDeControl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3.0-EstructurasDeDatos/3.0-EstructurasDeDatos.iml" filepath="$PROJECT_DIR$/3.0-EstructurasDeDatos/3.0-EstructurasDeDatos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4.0-IntroProgObjetos/4.0-IntroProgObjetos.iml" filepath="$PROJECT_DIR$/4.0-IntroProgObjetos/4.0-IntroProgObjetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5.0-DesarrolloClases/5.0-DesarrolloClases.iml" filepath="$PROJECT_DIR$/5.0-DesarrolloClases/5.0-DesarrolloClases.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/NetBeansProjects.iml" filepath="$PROJECT_DIR$/.idea/NetBeansProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sandbox/Sandbox.iml" filepath="$PROJECT_DIR$/Sandbox/Sandbox.iml" />
+    </modules>
+  </component>
+</project>
