@@ -9,12 +9,16 @@ package EjercicioExtraterrestre;
  * @author dam
  */
 public abstract class Extraterrestre {
-    String nombre;
+    String nombre;  
     int numeroPiernas;
     int numeroCabezas;
     int numeroOjos;
     String color;
 
+    public Extraterrestre(String color) {
+        this.color = color;
+    }
+    
     public String getNombre() {
         return nombre;
     }
