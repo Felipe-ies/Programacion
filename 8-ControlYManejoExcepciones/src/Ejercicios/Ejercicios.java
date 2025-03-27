@@ -26,6 +26,8 @@ public class Ejercicios {
 
         //Ejercicio3
         int edadErronea = -5;
+        ejercicio3(edadErronea);
+
     }
 
     public static String ejercicio1() {
@@ -62,6 +64,44 @@ public class Ejercicios {
 }
 
 class EdadInvalidaException extends Exception {
+
     public EdadInvalidaException(String error_La_edad_debe_ser__0) {
     }
+
+    //Ejercicio 9
+    public static char caracterEn(String cadena, int pos) throws Exception {
+        if (pos >= 0 && pos < cadena.length()) {
+            return cadena.charAt(pos);
+        } else {
+            throw new Exception("Posición inválida");
+        }
+    }
+
+}
+
+/*
+10.Construye un programa “main” en Java que realice las siguientes acciones:
+
+-Crea un objeto de la clase “Scanner” y lo asocia con la entrada estándar 
+-Lee un objeto de tipo “String” de la misma en un objeto “lect_teclado”;
+-Invoca al método “caracterEn” definido en el ejercicio anterior, con la “String” leída  de la entrada estándar y el entero “7”, mostrándolo por pantalla;
+-Captura la posible excepción, mostrando por pantalla un mensaje:
+“Has intentado recuperar una posición de la cadena de caracteres que no existe;”.
+
+11.Define una clase “NumeroNegativoExcepcion” que herede de “Exception” y que contenga un constructor sin parámetros y un constructor que reciba 
+como parámetro una “String”, de tal modo que ambos invoquen a los constructores de la clase “Exception” correspondientes.
+
+12.¿Cuál es la peculiaridad de las excepciones del tipo “RuntimeException” (o de las subclases de la misma)?
+
+13.¿Qué información nos aporta el método “printStackTrace (): void” sobre una excepción?
+
+*/
+
+//11
+class NumeroNegativoExcepcion extends Exception{
+
+    public NumeroNegativoExcepcion(String message) {
+        super("Número no debe ser negativo");
+    }
+    
 }

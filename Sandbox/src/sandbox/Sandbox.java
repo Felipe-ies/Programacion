@@ -18,5 +18,7 @@ public class Sandbox {
     public static void main(String[] args) {
         
         //Testint commit
+        String [] array_string = new String [25]; 
+        System.out.println(array_string[3].length());
     }
 }
