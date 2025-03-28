@@ -45,7 +45,7 @@ public class LecturaYEscrituraInformación {
         try {
             FileInputStream fis = new FileInputStream("persona.ser");
             ObjectInputStream ois = new ObjectInputStream(fis);
-            Persona p = (Persona) ois.readObject();
+            //Persona p = (Persona) ois.readObject();
             System.out.println(p);
         } catch (FileNotFoundException ex) {
             Logger.getLogger(LecturaYEscrituraInformación.class.getName()).log(Level.SEVERE, null, ex);
