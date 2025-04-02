@@ -60,8 +60,6 @@ public class GestionBaseDeDatos {
             Logger.getLogger(GestionBaseDeDatos.class.getName()).log(Level.SEVERE, null, ex);
         }
         
-        
-        //sdfsdfdsf
     }
     
 }
