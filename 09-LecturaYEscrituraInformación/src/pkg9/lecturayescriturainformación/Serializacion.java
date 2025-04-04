@@ -24,8 +24,7 @@ public class Serializacion {
         //Escribir objeto
         try {
             Persona p = new Persona("Elba", "Nanero");
-            FileOutputStream fos;
-            fos = new FileOutputStream("persona.ser");
+            FileOutputStream fos = new FileOutputStream("persona.ser");
             ObjectOutputStream oos = new ObjectOutputStream(fos);
             oos.writeObject(p);
         } catch (FileNotFoundException ex) {
