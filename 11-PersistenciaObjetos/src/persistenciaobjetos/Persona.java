@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package pkg11.persistenciaobjetos;
+package persistenciaobjetos;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -12,8 +12,8 @@ import javax.persistence.Id;
  *
  * @author dam
  */
-public @Entity //Definir a Persona como entidad JPA
-class Persona {
+@Entity //Definir a Persona como entidad JPA
+public class Persona {
 
     //Atributo que es la Clave Privada(autoincrementable)
     @Id
